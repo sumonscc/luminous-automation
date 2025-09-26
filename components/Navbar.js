@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -7,16 +8,20 @@ export default function Navbar() {
   alignItems: 'center',
   justifyContent: 'space-between',
   padding: '1rem 2rem',
-  backgroundColor: '#003366', // গাঢ় নেভি ব্লু
-  color: '#FFFFFF',           // সাদা টেক্সট
+  backgroundColor: '#003366',
+  color: '#FFFFFF',
   boxShadow: '0 2px 4px rgba(0,0,0,0.1)', // নিচে হালকা ছায়া
   position: 'sticky',
   top: 0,
   zIndex: 1000
 }}>
-      <h2>Luminous Automation</h2>
-      <div style={{ display: 'flex', gap: '1rem' }}>
-        
+      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+      <Image src="/images/logo.png" alt="Luminous Logo" width={40} height={40} />
+      <h2 style={{ margin: 0 }}>Luminous Automation</h2>
+      </div>
+
+  <div style={{ display: 'flex', gap: '1rem' }}>
+  
   <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Home</span>
 </Link>
   <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Products</span>
