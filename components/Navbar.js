@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -16,7 +15,7 @@ export default function Navbar() {
   zIndex: 1000
 }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-      <Image src="/images/logo.png" alt="Luminous Logo" width={40} height={40} />
+      <Image src="/images/logo.png" alt="Luminous Logo" width={90} height={50} />
       <h2 style={{ margin: 0 }}>Luminous Automation</h2>
       </div>
 
