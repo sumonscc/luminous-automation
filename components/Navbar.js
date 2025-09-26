@@ -16,8 +16,8 @@ export default function Navbar() {
 }}>
       <h2>Luminous Automation</h2>
       <div style={{ display: 'flex', gap: '1rem' }}>
-        <Link href="/">
-  <span style={{ color: '#00cc99', fontWeight: 'bold' }}>Home</span>
+        
+  <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Home</span>
 </Link>
         <Link href="/products">Products</Link>
         <Link href="/solutions">Solutions</Link>
