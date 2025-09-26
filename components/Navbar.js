@@ -7,7 +7,7 @@ export default function Navbar() {
   alignItems: 'center',
   justifyContent: 'space-between',
   padding: '1rem 2rem',
-  backgroundColor: '#0A192F', // গাঢ় নেভি ব্লু
+  backgroundColor: '#003366', // গাঢ় নেভি ব্লু
   color: '#FFFFFF',           // সাদা টেক্সট
   boxShadow: '0 2px 4px rgba(0,0,0,0.1)', // নিচে হালকা ছায়া
   position: 'sticky',
