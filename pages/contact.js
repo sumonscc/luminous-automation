@@ -10,7 +10,7 @@ export default function Contact() {
       <main style={{ padding: '2rem' }}>
         <h1>যোগাযোগ করুন</h1>
         <ContactForm />
-        <p>অথবা সরাসরি WhatsApp করুন: <strong>01922522573</strong></p>
+        <p>অথবা সরাসরি WhatsApp করুন: <strong>01911414150</strong></p>
       </main>
       <Footer />
       <WhatsAppButton />
