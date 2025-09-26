@@ -19,13 +19,21 @@ export default function Navbar() {
         
   <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Home</span>
 </Link>
-        <Link href="/products">Products</Link>
-        <Link href="/solutions">Solutions</Link>
-        <Link href="/services">Services</Link>
-        <Link href="/support">Support</Link>
-        <Link href="/news-events">News</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
+  <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Products</span>
+</Link>
+  <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Solutions</span>
+</Link>
+  <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Services</span>
+</Link>
+  <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Support</span>
+</Link>
+  <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>News</span>
+</Link>
+  <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>About</span>
+</Link>
+  <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Contact</span>
+</Link>
+  
       </div>
     </nav>
   );
