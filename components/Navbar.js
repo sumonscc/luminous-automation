@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Image from 'next/link';
+
 
 export default function Navbar() {
   return (
@@ -18,10 +18,8 @@ export default function Navbar() {
       <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
       <Image src="/images/logo.png" alt="Luminous Logo" width={90} height={50} />
       <h2 style={{ margin: 0 }}>Luminous Automation</h2>
-      </div>
+    
 
-  <div style={{ display: 'flex', gap: '1rem' }}>
-  
   <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Home</span>
 </Link>
   <Link href="/">  <span style={{ color: '#00cc99', fontWeight: 'bold', textDecoration: 'none' }}>Products</span>
