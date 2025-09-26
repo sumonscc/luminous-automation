@@ -9,7 +9,7 @@ export default function Navbar() {
       backgroundColor: '#003366',
       color: 'white'
     }}>
-      <h2>Luminous</h2>
+      <h2>Luminous Automation</h2>
       <div style={{ display: 'flex', gap: '1rem' }}>
         <Link href="/">Home</Link>
         <Link href="/products">Products</Link>
